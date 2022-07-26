@@ -24,7 +24,7 @@ use Inertia\Inertia;
 
 
 
-route::redirect('/', '/prototype/login');
+route::redirect('/', '/login');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
